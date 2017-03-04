@@ -5,7 +5,7 @@
 
 namespace spiny
 {
-extern double sph(int l, int m, double theta, double phi)
+double sph(int l, int m, double theta, double phi)
 {
 	using namespace std;
         using namespace boost::math;
